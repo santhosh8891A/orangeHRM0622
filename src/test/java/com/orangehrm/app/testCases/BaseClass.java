@@ -20,6 +20,7 @@ public class BaseClass {
 	@BeforeSuite
 	public void setUp() {
 		//Reading data from properties file
+		//Add a new code
 		readconfig=new ReadConfig();
 		applicationURL=readconfig.getFromConfingFile("ApplicationURL");
 		userName=readconfig.getFromConfingFile("username");
