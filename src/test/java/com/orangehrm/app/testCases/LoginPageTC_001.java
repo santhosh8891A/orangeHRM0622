@@ -11,8 +11,10 @@ import junit.framework.Assert;
 public class LoginPageTC_001 extends BaseClass {
 	
 	@Test
+	
 	public void loginValidation()
 	{
+		//Updated Code
 		 LoginPage lp=new LoginPage(driver);
 		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		 lp.login(userName,password);
