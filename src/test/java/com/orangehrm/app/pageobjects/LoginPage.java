@@ -1,0 +1,30 @@
+package com.orangehrm.app.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage {
+	WebDriver ldriver;
+
+	//Parameterized constructor
+	public LoginPage(WebDriver rdriver) {
+		ldriver = rdriver;
+		PageFactory.initElements(rdriver, this);
+	}
+	
+	
+	@FindBy(name="username") WebElement userNameInput;
+	@FindBy(xpath="//input[@type='password']") WebElement passwordInput;
+	@FindBy(xpath="//button[@type='submit']") WebElement loginButton;
+	
+	
+	public void login(String userName,String password)
+	{
+		userNameInput.sendKeys("Admin");
+		passwordInput.sendKeys("admin123");
+		loginButton.click();
+	}
+
+}
