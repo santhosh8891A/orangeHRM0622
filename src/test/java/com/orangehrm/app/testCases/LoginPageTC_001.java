@@ -1,4 +1,4 @@
-package Baseclass;
+package com.orangehrm.app.testCases;
 
 import java.time.Duration;
 

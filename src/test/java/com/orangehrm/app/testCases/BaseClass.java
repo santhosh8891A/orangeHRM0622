@@ -1,4 +1,4 @@
-package Baseclass;
+package com.orangehrm.app.testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
