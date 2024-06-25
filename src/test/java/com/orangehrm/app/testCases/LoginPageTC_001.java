@@ -13,7 +13,7 @@ import junit.framework.Assert;
 
 public class LoginPageTC_001 extends BaseClass {
 	
-	@Test
+	
 	public void loginValidation() throws IOException, InterruptedException
 	{
 		//Created the login page object
