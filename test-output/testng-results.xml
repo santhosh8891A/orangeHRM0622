@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-24T11:42:09Z" name="Suite" finished-at="2024-06-24T11:42:18Z" duration-ms="8225">
+  <suite started-at="2024-06-25T06:35:23Z" name="Suite" finished-at="2024-06-25T06:35:52Z" duration-ms="29302">
     <groups>
     </groups>
-    <test started-at="2024-06-24T11:42:09Z" name="Test" finished-at="2024-06-24T11:42:18Z" duration-ms="8225">
-      <class name="com.orangehrm.app.testCases.LoginPageTC_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.LoginPageTC_001@7a1a14a4]" started-at="2024-06-24T11:41:59Z" name="setUp" finished-at="2024-06-24T11:42:09Z" duration-ms="10733" status="PASS">
+    <test started-at="2024-06-25T06:35:23Z" name="Test" finished-at="2024-06-25T06:35:52Z" duration-ms="29302">
+      <class name="com.orangehrm.app.testCases.Myinfo">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:03Z" name="setUp" finished-at="2024-06-25T06:35:23Z" duration-ms="20051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginValidation()[pri:0, instance:com.orangehrm.app.testCases.LoginPageTC_001@7a1a14a4]" started-at="2024-06-24T11:42:09Z" name="loginValidation" finished-at="2024-06-24T11:42:18Z" duration-ms="8175" status="PASS">
+        <test-method signature="validatePersonalDetailsScreen()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:23Z" name="validatePersonalDetailsScreen" finished-at="2024-06-25T06:35:38Z" duration-ms="15254" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.app.testCases.LoginPageTC_001@7a1a14a4]" started-at="2024-06-24T11:42:18Z" name="tearDown" finished-at="2024-06-24T11:42:18Z" duration-ms="502" status="PASS">
+        </test-method> <!-- validatePersonalDetailsScreen -->
+        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:38Z" name="extenrWriting" finished-at="2024-06-25T06:35:39Z" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extenrWriting -->
+        <test-method signature="validateEditPersonalDetails()[pri:1, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:39Z" name="validateEditPersonalDetails" finished-at="2024-06-25T06:35:52Z" duration-ms="13397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditPersonalDetails -->
+        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:52Z" name="extenrWriting" finished-at="2024-06-25T06:35:52Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extenrWriting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:52Z" name="tearDown" finished-at="2024-06-25T06:35:53Z" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.app.testCases.LoginPageTC_001 -->
+      </class> <!-- com.orangehrm.app.testCases.Myinfo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,13 +4,14 @@
   <parameter name="browser" value="Edge"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.orangehrm.app.testCases.LoginPageTC_001">
+      <class name="com.orangehrm.app.testCases.Myinfo">
         <methods>
-          <include name="loginValidation"/>
+          <include name="validatePErsonalDetailsScreen"/>
+          <include name="extenrWriting"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.orangehrm.app.testCases.LoginPageTC_001 -->
+      </class> <!-- com.orangehrm.app.testCases.Myinfo -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
