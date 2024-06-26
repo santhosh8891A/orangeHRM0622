@@ -4,7 +4,7 @@
 	<parameter name="browser" value="Edge"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.orangehrm.app.testCases.Myinfo"/>
+      <class name="com.orangehrm.app.testCases.MyinfoAddDepndencies"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T06:35:23Z" name="Suite" finished-at="2024-06-25T06:35:52Z" duration-ms="29302">
+  <suite started-at="2024-06-26T06:30:25Z" name="Suite" finished-at="2024-06-26T06:30:56Z" duration-ms="31656">
     <groups>
     </groups>
-    <test started-at="2024-06-25T06:35:23Z" name="Test" finished-at="2024-06-25T06:35:52Z" duration-ms="29302">
-      <class name="com.orangehrm.app.testCases.Myinfo">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:03Z" name="setUp" finished-at="2024-06-25T06:35:23Z" duration-ms="20051" status="PASS">
+    <test started-at="2024-06-26T06:30:25Z" name="Test" finished-at="2024-06-26T06:30:56Z" duration-ms="31656">
+      <class name="com.orangehrm.app.testCases.MyinfoAddDepndencies">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:13Z" name="setUp" finished-at="2024-06-26T06:30:25Z" duration-ms="11989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatePersonalDetailsScreen()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:23Z" name="validatePersonalDetailsScreen" finished-at="2024-06-25T06:35:38Z" duration-ms="15254" status="PASS">
+        <test-method signature="validateAddDependencies(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:27Z" name="validateAddDependencies" data-provider="LoginData" finished-at="2024-06-26T06:30:41Z" duration-ms="14024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Child]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2022-14-05]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatePersonalDetailsScreen -->
-        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:38Z" name="extenrWriting" finished-at="2024-06-25T06:35:39Z" duration-ms="512" status="PASS">
+        </test-method> <!-- validateAddDependencies -->
+        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:41Z" name="extenrWriting" finished-at="2024-06-26T06:30:42Z" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extenrWriting -->
-        <test-method signature="validateEditPersonalDetails()[pri:1, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:39Z" name="validateEditPersonalDetails" finished-at="2024-06-25T06:35:52Z" duration-ms="13397" status="PASS">
+        <test-method signature="validateAddDependencies(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:42Z" name="validateAddDependencies" data-provider="LoginData" finished-at="2024-06-26T06:30:56Z" duration-ms="14311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BCD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2021-14-07]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateEditPersonalDetails -->
-        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:52Z" name="extenrWriting" finished-at="2024-06-25T06:35:52Z" duration-ms="105" status="PASS">
+        </test-method> <!-- validateAddDependencies -->
+        <test-method is-config="true" signature="extenrWriting()[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:56Z" name="extenrWriting" finished-at="2024-06-26T06:30:56Z" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extenrWriting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.app.testCases.Myinfo@4b41dd5c]" started-at="2024-06-25T06:35:52Z" name="tearDown" finished-at="2024-06-25T06:35:53Z" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.app.testCases.MyinfoAddDepndencies@4b41dd5c]" started-at="2024-06-26T06:30:56Z" name="tearDown" finished-at="2024-06-26T06:30:57Z" duration-ms="510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.app.testCases.Myinfo -->
+      </class> <!-- com.orangehrm.app.testCases.MyinfoAddDepndencies -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
