@@ -17,15 +17,20 @@ public class LoginPageTC_001 extends BaseClass {
 	public void loginValidation() throws IOException, InterruptedException
 	{
 		//Created the login page object
-		 
+	{
+		 LoginPage lp=new LoginPage(driver);
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 lp.login(userName,password);
+		 String expectedTitle=driver.getTitle();
+		 Assert.assertEquals(title, expectedTitle);
 		 test= extent.createTest("Login Test Case");
 		 logger.info("Entered User name");
 		 test.log(Status.PASS, "Entered User name Sucessfully");
 		 logger.info("Entered Password");
 		 test.log(Status.PASS, "Entered Password Sucessfully");
-		 String expectedTitle=driver.getTitle();
+		 String expectedTitle1=driver.getTitle();
 		 
-		 if(title.contentEquals(expectedTitle))
+		 if(title.contentEquals(expectedTitle1))
 		 {
 		 test.log(Status.PASS, "Validated Title Sucessfully");
 		 logger.info("Validated Title");
@@ -45,5 +50,5 @@ public class LoginPageTC_001 extends BaseClass {
 		
 	}
 	
-	
+	}
 }
