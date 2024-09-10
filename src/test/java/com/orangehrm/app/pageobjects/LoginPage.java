@@ -21,7 +21,7 @@ public class LoginPage {
 	@FindBy(xpath="//input[@type='password']") WebElement passwordInput;
 	@FindBy(xpath="//button[@type='submit']") WebElement loginButton;
 	
-	//This Method is used to perfrom login
+	//This Method is used to perfrom login and chages done on 0910
 	public void login(String userName,String password)
 	{
 		
