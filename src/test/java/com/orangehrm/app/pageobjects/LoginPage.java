@@ -10,7 +10,7 @@ import jdk.jfr.internal.Logger;
 public class LoginPage {
 	WebDriver ldriver;
 
-	
+	//Parameterized constructor created on 0910 for testing 
 	public LoginPage(WebDriver rdriver) {
 		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);
