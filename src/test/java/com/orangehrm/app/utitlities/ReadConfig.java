@@ -8,6 +8,7 @@ public class ReadConfig {
 
 	Properties pro;
 	public ReadConfig() {
+		//This is testing for branch merge
 		File src = new File("Configurations/config.properties");//Providing the efile location
 		try {
 			FileInputStream fis = new FileInputStream(src);
