@@ -11,8 +11,8 @@ public class ReadConfig {
 		File src = new File("Configurations/config.properties");//Providing the efile location
 		try {
 			FileInputStream fis = new FileInputStream(src);
-			pro3 = new Properties();//Creatin an object for properties
-                       pro2 = new Properties();
+			pro = new Properties();//Creatin an object for properties
+                       
 			pro.load(fis);//Reading the data from properties file
 		} catch (Exception e) {
 			System.out.println("Exception is " + e.getMessage());
