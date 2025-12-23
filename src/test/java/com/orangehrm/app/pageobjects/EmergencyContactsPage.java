@@ -1,6 +1,8 @@
 package com.orangehrm.app.pageobjects;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class EmergencyContactsPage {
@@ -11,4 +13,6 @@ public class EmergencyContactsPage {
 		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);
 	}
+	
+	@FindBy(xpath="test") WebElement testing;
 }
