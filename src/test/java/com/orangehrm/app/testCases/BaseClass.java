@@ -42,9 +42,10 @@ public class BaseClass {
 	@Parameters("browser")
 	@BeforeSuite
 	public void setUp(String browser) {
-		//Reading data from properties file
 		//Add a new code
 		readconfig = new ReadConfig();
+		//This is for git hub testing
+		//This is for git hub testing
 		applicationURL = readconfig.getFromConfingFile("ApplicationURL");
 		userName = readconfig.getFromConfingFile("username");
 		password = readconfig.getFromConfingFile("password");
